@@ -1,5 +1,5 @@
 public class DataBase {
-	static ExtractEntities b =new EtractEntities();
+	static ExtractEntities b =new ExtractEntities();
 
     public static void main(String[] args) throws IOException, ParseException {
 
