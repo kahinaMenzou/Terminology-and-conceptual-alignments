@@ -1,5 +1,5 @@
-public class ListFiles {
-	static EssaiModèle b =new EssaiModèle();
+public class DataBase {
+	static ExtractEntities b =new EtractEntities();
 
     public static void main(String[] args) throws IOException, ParseException {
 
@@ -9,7 +9,7 @@ public class ListFiles {
 
     	for (int i = 0; i < listOfFiles.length; i++) {
     	  if (listOfFiles[i].isFile()) {
-    	    EssaiModèle.query_model("/home/hichem/Bureau/essai10/r/" + listOfFiles[i].getName());   	  
+    	    ExtractData.query_model("/home/hichem/Bureau/essai10/r/" + listOfFiles[i].getName());   	  
     	    
     	  } 
     	  
